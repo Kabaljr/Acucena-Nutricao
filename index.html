@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--Fonte-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <!---->
+    <title>Açucena Nutrição</title>
+  </head>
+  <body>
+    <!--NAV-->
+    <nav id="navig">
+      <div class="wrapper">
+        <a href="#">
+         
+          <img src="img/logo5.png" id="logo-nav" alt="logo" class="logo" href="#home"/>
+        </a>
+
+        <div class="menu">
+          <ul>
+            <li><a onclick="closeMenu()" href="#home">Inicio</a></li>
+            <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+            <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
+            <li><a href="#">Depoimentos</a></li>
+          </ul>
+
+          <a o href="#contact" class="button" onclick="closeMenu()"
+            >Agende sua Consulta</a
+          >
+
+          <ul class="social-link">
+            <li>
+              <a href="#" target="_blank"><img src="img/instagram.png" /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><img src="img/facebook.png" /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><img src="img/twitter.png" /></a>
+            </li>
+          </ul>
+        </div>
+
+        <button onclick="openMenu()" class="open-menu" id="open-m">
+          <img src="img/Icon-h2.png" id="icon-nav" alt="icon-h" />
+        </button>
+        <button onclick="closeMenu()" class="close-menu" id="close-m">
+          <img src="img/close.png" alt="fechar menu" />
+        </button>
+      </div>
+    </nav>
+
+    <!--HEADER-->
+    <section id="home">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>BOAS-VINDAS A MUDANÇA👋</h4>
+            <h1>Sua saúde depende apenas de você</h1>
+          </header>
+
+          <div class="content">
+            <p>
+              Os Nutricionistas da <strong>Açucena Nutrição</strong> vão além
+              dos sintomas para tratar a causa raiz de sua doença e proporcionar
+              uma cura a longo prazo com apenas alimentos
+            </p>
+            <a href="#contact">
+              <button class="btn" type="button">
+                <img src="img/whatsapp.png" alt="whatsapp" class="what-btn" />
+                AGENDE SUA CONSULTA
+              </button></a
+            >
+          </div>
+        </div>
+
+        <div class="col-b">
+          <img src="img/foto2.png" alt="Criança pulando" class="bg-home" />
+        </div>
+
+        <!--HEADER CONTAINER-->
+        <div class="stats">
+          <div class="sub-stats">
+            <h3>+3.500</h3>
+            <p>Pacientes atendidos</p>
+          </div>
+          <div class="sub-stats">
+            <h3>+20</h3>
+            <p>Programas alimentares</p>
+          </div>
+          <div class="sub-stats">
+            <h3>+10</h3>
+            <p>Anos no mercado</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SERVICES-->
+    <section id="services">
+      <div class="wrapper">
+        <header>
+          <h4>ALGUNS DE NOSSOS SERVIÇOS</h4>
+          <h2>Como podemos ajudá-lo a se sentir melhor?</h2>
+        </header>
+
+        <div class="content">
+          <div class="cards">
+            <div class="caixa-card digestivo">
+              <div class="img-card">
+                <img src="img/digestivo.png" alt="foto problema digestivo" />
+              </div>
+              <div class="card">
+                <h3>Problemas digestivos</h3>
+                <p>
+                  Os problemas digestivos são uma queixa frequente nos
+                  consultórios médicos. Quando a nossa digestão não funciona
+                  direito, é porque o nosso organismo está em desequilíbrio e
+                  isso também pode afetar a nossa mente.
+                </p>
+              </div>
+            </div>
+            <div class="caixa-card hormonal">
+              <div class="img-card">
+                <img src="img/hormonal2.png" alt="foto problema digestivo" />
+              </div>
+              <div class="card">
+                <h3>Saúde Hormonal</h3>
+                <p>
+                  Os hormônios, são responsáveis por controlar nosso humor, o
+                  sistema digestivo, energia, a libido, a fertilidade, o
+                  metabolismo e a saúde da nossa pele, sistema imunológico e
+                  inflamação. Mas, manter os hormônios em equilíbrio requer um
+                  grande desafio: a alimentação saudável.
+                </p>
+              </div>
+            </div>
+            <div class="caixa-card mente">
+              <div class="img-card">
+                <img src="img/mente3.png" alt="foto problema digestivo" />
+              </div>
+              <div class="card">
+                <h3>Bem-estar mental</h3>
+                <p>
+                  Possuir uma boa alimentação pode, inclusive, ajudar na
+                  recuperação de transtornos mentais, como ansiedade e
+                  depressão. Segundo a endocrinologista, Cintia Cercato,
+                  “Pesquisas apontam que indivíduos que possuem um padrão de
+                  dieta saudável são capazes de reduzir 16% o risco de
+                  transtorno depressivo”.
+                </p>
+              </div>
+            </div>
+            <div class="caixa-card crianca">
+              <div class="img-card">
+                <img src="img/crianca.png" alt="foto problema digestivo" />
+              </div>
+              <div class="card">
+                <h3>Cuidados Pediátricos</h3>
+                <p>
+                  A má alimentação nessa fase pode causar anemia, emagrecimento
+                  ou obesidade, cansaço a longo prazo e até mesmo distúrbios
+                  psicológicos e motores — daí a importância de um
+                  acompanhamento Nutricional.
+                </p>
+              </div>
+            </div>
+            <div class="caixa-card autoimune">
+              <div class="img-card">
+                <img src="img/autoimune.png" alt="foto problema digestivo" />
+              </div>
+              <div class="card">
+                <h3>Autoimune e Inflamação</h3>
+                <p>
+                  A maioria dos pacientes com doenças autoimunes não sabe da
+                  importância da alimentação para a melhora dos sintomas. Tudo o
+                  que comemos interfere diretamente no sistema imunológico. Por
+                  isso, pessoas com alteração nesse mecanismo de defesa devem
+                  ficar mais atentos na hora das escolhas.
+                </p>
+              </div>
+            </div>
+            <div class="caixa-card coracao">
+              <div class="img-card">
+                <img src="img/coracao.png" alt="foto problema digestivo" />
+              </div>
+              <div class="card">
+                <h3>Saúde do Coração</h3>
+                <p>
+                  A importância da alimentação adequada na redução do risco
+                  cardiovascular e no controle dos fatores de risco já está
+                  demonstrada por uma série de evidências científicas. Estudos
+                  demonstraram que as doenças cardiovasculares podem ser
+                  reduzidas em 30% com modificações no estilo de vida, e uma das
+                  melhores formas de evitar o problema é através da prevenção,
+                  que inclui uma alimentação saudável.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h4>SOBRE NÓS</h4>
+            <h2>Entenda quem somos e por que existimos</h2>
+          </header>
+
+          <div class="content">
+            <p>
+              Nosso sonho começou quando nós trabalhávamos horas a fio no
+              hospital, em setores de pacientes graves, na Terapia Intensiva. O
+              dia-a-dia nas UTIs não é fácil, muitas vezes, mais do que salvar a
+              vida daquele paciente, eu me perguntava se algo poderia ter sido
+              feito para evitar aquela condição de saúde tão grave, e se havia
+              algo: o que era? Muitas vezes, nós médicos somos treinados mais
+              para tratar doenças do que para realmente cuidar da saúde integral
+              do paciente. Vivenciamos algumas realidades de atendimentos
+              médicos que me assustavam: a quantidade de atendimentos era mais
+              visada do que a qualidade.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-b">
+          <div class="bg-equipe">
+            <img src="img/bg-equipe.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="wrapper">
+        <div class="col-a">
+          <header>
+            <h2>Entre em contato com a gente!</h2>
+          </header>
+
+          <div class="content">
+            <ul>
+              <li><img src="img/map.png" />R. Chilena Pivari 198</li>
+              <li><img src="img/envelope.png" />contato@anutricao.com</li>
+            </ul>
+            <a href="https://wa.me/5521964292066" class="btn-contact"
+              ><img src="img/whatsapp.png" /> Agende sua consulta</a
+            >
+          </div>
+        </div>
+        <div class="col-b">
+          <img src="img/bg-contat.png" />
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrapper">
+        <div class="col-a">
+          <a class="logo-footer" href="#home">
+            <img src="img/logo5.png" />
+          </a>
+
+          <p>
+            ©2022 Açucena Nutrição <br />
+            Todos os direitos reservados.
+          </p>
+        </div>
+        <div class="col-b">
+          <ul class="social-link">
+            <li>
+              <a href="#" target="_blank"><img src="img/instagram.png" /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><img src="img/facebook.png" /></a>
+            </li>
+            <li>
+              <a href="#" target="_blank"><img src="img/twitter.png" /></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <a id="backToTopButton" href="#home">
+      <img src="img/seta.png" />
+    </a>
+
+    <!--SCRIPT-->
+    <!--JavaScript Scroll Reaveal lib-->
+    <script src="js/libs/jquery-3.6.1.min.js"></script>
+
+    <script src="js/plugins.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="js/main.js"></script>
+
+    <!-- LINK SCROLL REVEAL-->
+    <!--JavaScript-->
+  </body>
+</html>
