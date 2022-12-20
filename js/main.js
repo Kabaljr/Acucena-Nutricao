@@ -13,11 +13,11 @@ function navOnScroll() {
   if (scrollY > 0) {
     navig.classList.add('scroll')
     document.getElementById('logo-nav').src = 'img/logo4.png'
-    document.getElementById('icon-nav').src = 'img/icon-h.png'
+    document.getElementById('icon-nav').src = 'img/Icon-h.png'
   } else {
     navig.classList.remove('scroll')
     document.getElementById('logo-nav').src = 'img/logo5.png'
-    document.getElementById('icon-nav').src = 'img/icon-h2.png'
+    document.getElementById('icon-nav').src = 'img/Icon-h2.png'
   }
 }
 
