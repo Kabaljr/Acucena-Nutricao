@@ -267,7 +267,7 @@ body.menu-expanded .menu {
 
   display: inline-block;
 
-  margin-top: 15.8rem;
+  margin-top: 4rem;
   margin-bottom: 8rem;
 }
 
@@ -276,6 +276,7 @@ body.menu-expanded .menu {
   height: 26.8rem;
   margin-inline: auto;
   padding-top: calc(6rem + var(--largura-nav));
+  margin-bottom: 13rem;
 }
 
 .menu ul li a {
